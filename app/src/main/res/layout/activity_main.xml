@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/datapolo"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/wleitura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="176dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/wleitura"
+        android:inputType="numberSigned|number"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/warea"
+        android:layout_width="157dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="16dp"
+
+        android:ems="13"
+        android:hint="@string/warea"
+        android:inputType="textShortMessage|textCapCharacters" />
+    <EditText
+        android:id="@+id/wlocal"
+        android:layout_width="157dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="176dp"
+
+        android:ems="13"
+        android:hint="@string/wlocal"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/wcilindro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="176dp"
+
+        android:ems="10"
+        android:text="@string/wcilindro" />
+    <TextView
+        android:id="@+id/wproduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:text="@string/wproduto" />
+
+    <TextView
+        android:id="@+id/wrecarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:text="@string/wrecarga" />
+
+    <TextView
+        android:id="@+id/whidro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:text="@string/whidro" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:text="@string/wgravar" />
+
+
+
+
+
+</LinearLayout>

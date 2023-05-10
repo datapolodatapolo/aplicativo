@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">INSPECAO</string>
+    <string name="wleitura">LEITOR</string>
+    <string name="warea">AREA</string>
+    <string name="wlocal">LOCAL</string>
+    <string name="wcilindro">CILINDRO</string>
+    <string name="wproduto">PRODUTO</string>
+    <string name="wrecarga">RECARGA</string>
+    <string name="whidro">T.HIDRÓSTÁTICO</string>
+    <string name="wgravar">GRAVAR</string>
+    <string name="Scan">CAMERA</string>
+    <string name="qrscaner">QR SCANER></string>
+    <string name="text">visualiza</string>
+
+
+    <string name="title_activity_main_leitor">Main_Leitor</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="title_activity_item_detail_host">ItemDetailHostActivity</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>
